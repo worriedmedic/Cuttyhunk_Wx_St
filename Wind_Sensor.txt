@@ -1,0 +1,23 @@
+###################### WIND SENSOR MUSINGS ######################
+
+4 Options for implementing a wind sensor:
+
+	1.) Wind speed only:
+		a.) Thermal-Resistance Solid State Board ($24): https://moderndevice.com/product/wind-sensor-rev-p/
+			Power:    8 - 12 VDC power
+			Current:  ~40 mA
+		b.) Rotating Cup Anemometer
+			i.) Adafruit (~$40): https://www.adafruit.com/product/1733
+			    Power: 7-24 VDC
+			ii.) Inspeed (~$55): http://inspeed.com/anemometers/Vortex_Wind_Sensor.asp
+			     #No power required, simple calibration of 1 pulse per 2.4mph
+
+	2.) Wind direction only:
+		a.) Inspeed ($130): http://inspeed.com/wind_speed_direction/e-Vane_2.asp
+		    Power: 2.7 - 5.5 VDC
+		    Current: 12 mA
+		    #Output is analog voltage that ranges from 5-95% of VCC
+
+	3.) Combination Speed and Direction:
+		a.) Sparkfun ($80): https://www.sparkfun.com/products/8942?gclid=CJCIqavu3swCFQhkhgodgPwIYw
+		    #Includes rain sensor
