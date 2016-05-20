@@ -55,7 +55,7 @@ with serial.Serial(addr,9600) as pt:
             url = 'https://api.thingspeak.com/update.json'
 
             if addr == '00':
-                api_key = 'TFGVV0YYM18ALONJ'
+                api_key = [None]
                 payload = {'api_key': api_key, 'field1': addr, 'field2': temp, 'field3': press, 'field4': humid,
                        'field5': volt, 'field6': rssi}
                 r = requests.post(url,data=payload)
@@ -63,7 +63,7 @@ with serial.Serial(addr,9600) as pt:
                     print(r.text)
 
             elif addr == '01':
-                api_key = 'ARPQ7GWOHTQSYWYW'
+                api_key = [None]
                 payload = {'api_key': api_key, 'field1': addr, 'field2': temp, 'field3': press, 'field4': humid,
                        'field5': volt, 'field6': rssi}
                 r = requests.post(url, data=payload)
