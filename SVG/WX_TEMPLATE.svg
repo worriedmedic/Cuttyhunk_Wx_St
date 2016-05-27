@@ -24,12 +24,12 @@
 	.st18{font-family:'MyriadPro-Regular';}
 	.st19{font-size:12px;}
 </style>
-<text transform="matrix(1 0 0 1 -30.7817 183.9874)" class="st0 st1">TMPE</text>
-<text transform="matrix(1 0 0 1 48.6074 298.2676)" class="st2 st3">TMPI</text>
-<text transform="matrix(1 0 0 1 334.3745 39.2488)" class="st4 st5">SNRISE</text>
-<text transform="matrix(1 0 0 1 -26.5192 39.8514)" class="st0 st5">CURTIME</text>
-<text transform="matrix(1 0 0 1 125.687 39.8514)" class="st6 st5">CURDATE</text>
-<text transform="matrix(1 0 0 1 488.3479 39.2489)" class="st4 st5">SNSET</text>
+<text transform="matrix(1 0 0 1 8 183.9874)" class="st0 st1">TMPE</text>
+<text transform="matrix(1 0 0 1 7.9998 298.2676)" class="st2 st3">TMPI</text>
+<text transform="matrix(1 0 0 1 356.2051 39.2488)" class="st4 st5">SNRISE</text>
+<text transform="matrix(1 0 0 1 7.9998 39.8514)" class="st0 st5">CURTIME</text>
+<text transform="matrix(1 0 0 1 105.687 39.8514)" class="st6 st5">CURDATE</text>
+<text transform="matrix(1 0 0 1 503.0002 39.2489)" class="st4 st5">SNSET</text>
 <g>
 	<rect x="347.6" y="228.8" width="5.5" height="1.5"/>
 	<rect x="347.6" y="242.9" width="5.5" height="1.5"/>
@@ -80,59 +80,58 @@
 <text transform="matrix(1 0 0 1 8 73.4258)" class="st6 st8">Exterior Temp (°F)</text>
 <text transform="matrix(1 0 0 1 396 189.4258)" class="st6 st8">Grayboat Temp (°F)</text>
 <text transform="matrix(1 0 0 1 8 205.4259)" class="st6 st8">Interior Temp (°F)</text>
-<text transform="matrix(1 0 0 1 365.1792 251.6137)" class="st4 st9">TMPG</text>
+<text transform="matrix(1 0 0 1 392.5365 249.8997)" class="st4 st9">TMPG</text>
 <text transform="matrix(1 0 0 1 396 278.426)" class="st6 st8">Downstairs Temp (°F)</text>
-<text transform="matrix(1 0 0 1 368.0654 340.614)" class="st4 st9">TMPD</text>
+<text transform="matrix(1 0 0 1 392.5365 338.9)" class="st4 st9">TMPD</text>
 <text transform="matrix(1 0 0 1 396 367.4258)" class="st6 st8">Dew Point (°F)</text>
-<text transform="matrix(1 0 0 1 307.4609 429.6137)" class="st4 st9">DWPNT</text>
+<text transform="matrix(1 0 0 1 392.5369 429.6137)" class="st4 st9">DWPNT</text>
 <text transform="matrix(1 0 0 1 396 458.4256)" class="st6 st8">Relitative Humidity (%)</text>
-<text transform="matrix(1 0 0 1 310.3462 520.6135)" class="st4 st9">RLHUM</text>
+<text transform="matrix(1 0 0 1 396.0005 520.6135)" class="st4 st9">RLHUM</text>
 <text transform="matrix(1 0 0 1 396 548.9193)" class="st6 st8">Pressure (inHg)</text>
-<text transform="matrix(1 0 0 1 397.479 613.8477)" class="st4 st10">PRESS</text>
+<text transform="matrix(1 0 0 1 446.479 613.8477)" class="st4 st10">PRESS</text>
 <text transform="matrix(1 0 0 1 396 75.4262)" class="st6 st8">Forecasted Hi &amp; Low</text>
-<text transform="matrix(1 0 0 1 307.52 125.5298)" class="st0 st11">FORHI</text>
-<text transform="matrix(1 0 0 1 442.2299 167.6878)" class="st0 st11">FORLO</text>
+<text transform="matrix(1 0 0 1 394.4795 125.5298)" class="st0 st11">FORHI</text>
+<text transform="matrix(1 0 0 1 497.3004 167.6878)" class="st0 st11">FORLO</text>
 <line class="st7" x1="0" y1="714" x2="600" y2="714"/>
-<text transform="matrix(1 0 0 1 107.9637 463.833)" class="st4 st9">WSP</text>
-<text transform="matrix(1 0 0 1 76.535 533.8461)" class="st4 st9">WGUS</text>
+<text transform="matrix(1 0 0 1 128.0204 463.833)" class="st4 st9">WSP</text>
+<text transform="matrix(1 0 0 1 128.0203 533.8461)" class="st4 st9">WGUS</text>
 <text transform="matrix(1 0 0 1 155.4142 399.9879)" class="st6 st8">Wind (mph)</text>
 <text transform="matrix(4.489659e-11 -1 1 4.489659e-11 198.3001 375.5498)" class="st6 st8">WDNO</text>
-<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 266.8943 402.406)" class="st6 st8">WDNE</text>
+<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 266.8942 402.4062)" class="st6 st8">WDNE</text>
 <text transform="matrix(1 0 0 1 296.2388 471)" class="st6 st8">WDEA</text>
-<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 267.5051 540.2053)" class="st6 st8">WDSE</text>
+<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 267.5049 540.2052)" class="st6 st8">WDSE</text>
 <text transform="matrix(1 0 0 1 156.6021 551.3571)" class="st6 st8">Gust (mph)</text>
 <circle class="st7" cx="196" cy="471" r="149"/>
 <line class="st12" x1="112.5" y1="471" x2="284.1" y2="471"/>
-<text transform="matrix(1 0 0 1 197.4184 679.5577)" class="st2 st13">TDNTM</text>
-<text transform="matrix(1 0 0 1 245.8263 705.4993)" class="st14 st15">TDNLV</text>
-<text transform="matrix(1 0 0 1 28.5115 690.9996)" class="st14 st16">TDNTYP</text>
+<text transform="matrix(1 0 0 1 204.6224 679.5577)" class="st2 st13">TDNTM</text>
+<text transform="matrix(1 0 0 1 253.0303 705.4993)" class="st14 st15">TDNLV</text>
+<text transform="matrix(1 0 0 1 86.5115 690.9996)" class="st14 st16">TDNTY</text>
 <text transform="matrix(1 0 0 1 459.203 679.5577)" class="st2 st13">TDFTM</text>
 <text transform="matrix(1 0 0 1 504.9352 705.4993)" class="st14 st15">TDFLV</text>
-<text transform="matrix(1 0 0 1 292.1707 690.9996)" class="st14 st16">TDFTYP</text>
+<text transform="matrix(1 0 0 1 347.2998 690.9996)" class="st14 st16">TDFTY</text>
 <line class="st7" x1="0" y1="628" x2="600" y2="628"/>
 <line class="st7" x1="505" y1="97" x2="483" y2="157.7"/>
 <path d="M8,705.3v-20.2c4.3,2.7,8.6,3.5,13.1,3.3v-43.1h22.3v39.1c4.5-0.7,9.1-0.7,13.6,0.7v20.2H8z M39.7,685.1V649h-15v3.3H33v3.6
 	h-8.3v2.4h4.7v3.6h-4.7v2.4H29v3.6h-4.3v2.4H33v3.6h-8.3v2.4h4.7v3.6h-4.7v2.4H29v3.6h-4.3v2.1C29.7,687.5,34.7,686.1,39.7,685.1z"
 	/>
-<text transform="matrix(0.9091 0 0 1 97.625 743.625)" class="st6 st17">00</text>
-<text transform="matrix(0.9091 0 0 1 179.2808 743.625)" class="st6 st17">01</text>
-<text transform="matrix(0.9091 0 0 1 262.6172 743.625)" class="st6 st17">02</text>
-<text transform="matrix(0.9091 0 0 1 345.625 743.625)" class="st6 st17">03</text>
-<text transform="matrix(0.9091 0 0 1 428.6641 743.625)" class="st6 st17">04</text>
+<text transform="matrix(0.9091 0 0 1 97.625 743.6249)" class="st6 st17">00</text>
+<text transform="matrix(0.9091 0 0 1 179.2812 743.6249)" class="st6 st17">01</text>
+<text transform="matrix(0.9091 0 0 1 262.6172 743.6249)" class="st6 st17">02</text>
+<text transform="matrix(0.9091 0 0 1 345.625 743.6249)" class="st6 st17">03</text>
+<text transform="matrix(0.9091 0 0 1 428.6641 743.6249)" class="st6 st17">04</text>
 <g>
 	<circle cx="355.9" cy="571.3" r="3.6"/>
 	<path d="M362,567.7c9.8-17.6,11.4-24.6,10.5-25.2c-0.9-0.5-6.2,4.4-16.5,21.6C358.5,564.2,360.8,565.6,362,567.7z"/>
-	<path d="M348.8,571.3c0-1.3,0.3-2.5,0.9-3.5c-20.1,0.4-27,2.4-27,3.5c0,1.1,6.9,3.1,27,3.5C349.1,573.7,348.8,572.5,348.8,571.3z"
-		/>
+	<path d="M348.8,571.3c0-1.3,0.3-2.5,0.9-3.5c-20.1,0.4-27,2.4-27,3.5s6.9,3.1,27,3.5C349.1,573.7,348.8,572.5,348.8,571.3z"/>
 	<path d="M362,574.8c-1.2,2.1-3.5,3.5-6,3.5c10.4,17.2,15.6,22.2,16.5,21.6C373.4,599.5,371.7,592.4,362,574.8z"/>
 	<path d="M352.3,579.2v1.5v47.4h7.1v-37.6C357.4,587.5,355,583.8,352.3,579.2z"/>
 </g>
 <text transform="matrix(4.489659e-11 1 -1 4.489659e-11 198.3008 567.3149)" class="st6 st8">WDSO</text>
-<text transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 131.0209 538.2796)" class="st6 st8">WDSW</text>
-<text transform="matrix(-1 0 0 -1 101.0894 471)" class="st6 st8">WDWE</text>
-<text transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 131.632 404.3309)" class="st6 st8">WDNW</text>
+<text transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 131.0206 538.2793)" class="st6 st8">WDSW</text>
+<text transform="matrix(-1 0 0 -1 101.0898 471.0009)" class="st6 st8">WDWE</text>
+<text transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 131.6318 404.3301)" class="st6 st8">WDNW</text>
 <text transform="matrix(1 0 0 1 411.5322 593.4501)" class="st6 st8">PLE</text>
-<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 418.7003 607.0942)" class="st6 st8">PUP</text>
+<text transform="matrix(4.489659e-11 -1 1 4.489659e-11 418.7003 607.0947)" class="st6 st8">PUP</text>
 <text transform="matrix(-1.346898e-10 1 -1 -1.346898e-10 418.7012 578.2024)" class="st6 st8">PDN</text>
 <g>
 	<text transform="matrix(1 0 0 1 132.5103 756.9962)" class="st18 st19">00BAT4</text>
