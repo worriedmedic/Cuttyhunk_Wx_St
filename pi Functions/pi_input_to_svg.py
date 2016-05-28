@@ -14,7 +14,7 @@ debug = False				#True if you want to use made up data
 baud            	= 9600		# baud rate for serial port
 txt_logging      	= True		# Enable/Disable logging to TXT file
 verbose             	= False
-address             	= '/dev/ttyACM0'
+address             	= '/dev/ttyUSB0'
 thingspeak_update   	= True
 internet		= True
 ## Values to store data
@@ -120,9 +120,9 @@ def get_tide(tide_day):
 
 pt = serial.Serial(address,9600,timeout=None)
 spb = io.TextIOWrapper(io.BufferedRWPair(pt,pt,1),encoding='ascii', errors='ignore',line_buffering=True)
-'''print(spb.readline())
 print(spb.readline())
-print(spb.readline())'''
+print(spb.readline())
+print(spb.readline())
 
 
 while(1):
@@ -260,6 +260,8 @@ while(1):
 				if(minute > tide_datetime):
 					tide_list = tide_list[1:]
 					tide_next_time = tide_list[0][0]
+					tide_next_type = tide_list[0][1]
+					tide_next_mag = tide_list[0][2]
 					dummy = datetime.datetime.strptime(tide_next_time,'%I:%M %p')
 					tide_datetime = tide_datetime.replace(tomorrow.year, tomorrow.month, tomorrow.day, dummy.hour,dummy.minute)
 			tide_following_time = tide_list[1][0]
@@ -267,7 +269,7 @@ while(1):
 			tide_following_mag = tide_list[1][2]
 	
 	#print(tide_list)
-	#print(tide_next_time)
+	#print(tide_next_type)
 	#### Initialization of serial usb port
 	#buff = read_buffer()
 	buff = spb.read(35)
@@ -295,9 +297,12 @@ while(1):
 		temp_2 = temp
 		press_2 = press
 		humid_2 = humid
+	
 	## Output data to the svg
+	
 	output = codecs.open('WX_TEMPLATE.svg', 'r', encoding='utf-8').read()
 	output = output.replace('CURDATE', today.strftime("%m/%d/%Y"))
+	output = output.replace('CURTIME', str(now))
 	output = output.replace('SNRISE', sun_rise)
 	output = output.replace('SNSET', sun_down)
 	if internet:
